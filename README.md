@@ -1,6 +1,6 @@
-# GoblinTrader
+# GoblinTrader: Elixir project for my bachelors thesis
 
-**TODO: Add description**
+**Thesis: Analysis of emergent beheaviour in emergent simulations**
 
 ## Installation
 

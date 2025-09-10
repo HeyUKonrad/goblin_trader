@@ -1,0 +1,206 @@
+
+10:16:40.868 [info] Loading 147 CA(s) from :otp store
+
+10:16:41.160 id=1 [debug] handled request client -> server initialize in 193ms
+
+10:16:41.176 [debug] sent notification server -> client window/logMessage
+
+10:16:41.176 [debug] handled notification client -> server textDocument/didOpen in 10ms
+
+10:16:41.184 [debug] NextLS v0.23.4 has initialized!
+
+10:16:41.184 [debug] sent notification server -> client window/logMessage
+
+10:16:41.184 [debug] Log file located at /home/konrad/Documents/Hochschule/Bachelorarbeit/goblin_trader/lib/.elixir-tools/next-ls.log
+
+10:16:41.191 [debug] sent notification server -> client window/logMessage
+
+10:16:41.191 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+10:16:42.005 [debug] sent notification server -> client window/logMessage
+
+10:16:42.005 [warning] Failed to unzip and install the bundled Elixir archive.
+
+** (MatchError) no match of right hand side value: {"** (Mix) The application \"asn1\" could not be found. This may happen if your Operating System broke Erlang into multiple packages and may be fixed by installing the missing \"erlang-dev\" and \"erlang-asn1\" packages\n", 1}
+    (next_ls 0.23.4) lib/next_ls/runtime/bundled_elixir.ex:55: NextLS.Runtime.BundledElixir.install/2
+    (next_ls 0.23.4) lib/next_ls.ex:882: NextLS.handle_notification/2
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:528: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.3.0) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:324: :telemetry.span/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:524: anonymous fn/4 in GenLSP.loop/3
+    (gen_lsp 0.11.0) lib/gen_lsp.ex:601: anonymous fn/4 in GenLSP.attempt/4
+    (elixir 1.17.3) lib/task/supervised.ex:101: Task.Supervised.invoke_mfa/2
+
+
+
+10:16:42.005 [debug] sent notification server -> client window/logMessage
+
+10:16:42.005 [debug] Booting runtimes...
+
+10:16:42.011 id=194 [debug] sent request server -> client window/workDoneProgress/create
+
+10:16:42.019 [debug] sent notification server -> client $/progress
+
+10:16:42.044 [debug] sent notification server -> client window/logMessage
+
+10:16:42.044 [info] Beginning DB migration...
+
+10:16:42.054 [debug] sent notification server -> client window/logMessage
+
+10:16:42.054 [info] Database is on the latest version: 7
+
+10:16:42.054 [debug] sent notification server -> client window/logMessage
+
+10:16:42.054 [info] Finished DB migration...
+
+10:16:42.054 [debug] sent notification server -> client window/logMessage
+
+10:16:42.054 [info] Booting runtime for goblin_trader.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/konrad/.local/share/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /home/konrad/Documents/Hochschule/Bachelorarbeit/goblin_trader
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1757492202054478121 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3LW5leHQtbHMtMTc1NzQ5MjIwMDg5MzU5MTY0N0Brb25yYWQtMjB5NzAwM3FnZQAAAOcAAAAAaMEz6Q==
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/konrad/.local/share/.burrito/next_ls_erts-15.2_0.23.4/bin:/home/konrad/.local/share/nvim/mason/bin:/home/konrad/.ghcup/bin:/home/konrad/.sdkman/candidates/java/current/bin:/home/konrad/.dotnet:/home/konrad/.deno/bin/deno/bin:/home/konrad/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/konrad/.local/bin:/home/konrad/.local/bin:/home/konrad/.cabal/bin:/home/konrad/.ghcup/bin
+
+
+10:16:42.055 [debug] handled notification client -> server initialized in 889ms
+
+10:16:42.866 [info] Loading 147 CA(s) from :otp store
+
+10:16:43.068 [debug] sent notification server -> client window/logMessage
+
+10:16:43.068 [info] Connected to node nextls-runtime-1757492202054478121@konrad-20y7003qge
+
+10:16:43.066 id=1 [debug] handled request client -> server initialize in 137ms
+
+10:16:43.077 [debug] sent notification server -> client window/logMessage
+
+10:16:43.081 [debug] NextLS v0.23.3 has initialized!
+
+10:16:43.081 [debug] sent notification server -> client window/logMessage
+
+10:16:43.081 [debug] Log file located at /home/konrad/Documents/Hochschule/Bachelorarbeit/goblin_trader/lib/.elixir-tools/next-ls.log
+
+10:16:43.084 [debug] sent notification server -> client window/logMessage
+
+10:16:43.084 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+10:16:43.826 [debug] sent notification server -> client $/progress
+
+10:16:43.828 [debug] sent notification server -> client window/logMessage
+
+10:16:43.828 [debug] Runtime for folder goblin_trader is ready...
+
+10:16:43.833 id=322 [debug] sent request server -> client window/workDoneProgress/create
+
+10:16:43.834 [debug] sent notification server -> client $/progress
+
+10:16:43.912 [debug] sent notification server -> client $/progress
+
+10:16:43.912 [debug] sent notification server -> client window/logMessage
+
+10:16:43.912 [info] Compiled goblin_trader!
+
+10:16:43.862 [debug] sent notification server -> client window/logMessage
+
+10:16:43.862 [warning] Failed to unzip and install the bundled Elixir archive.
+
+** (MatchError) no match of right hand side value: {"", 1}
+    (next_ls 0.23.3) lib/next_ls/runtime/bundled_elixir.ex:55: NextLS.Runtime.BundledElixir.install/2
+    (next_ls 0.23.3) lib/next_ls.ex:874: NextLS.handle_notification/2
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:478: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:474: anonymous fn/7 in GenLSP.loop/3
+    (gen_lsp 0.10.0) lib/gen_lsp.ex:553: GenLSP.attempt/4
+    (stdlib 6.2) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+
+
+
+10:16:43.862 [debug] sent notification server -> client window/logMessage
+
+10:16:43.862 [debug] Booting runtimes...
+
+10:16:43.867 id=267 [debug] sent request server -> client window/workDoneProgress/create
+
+10:16:43.880 [debug] sent notification server -> client $/progress
+
+10:16:43.899 [debug] sent notification server -> client window/logMessage
+
+10:16:43.899 [info] Beginning DB migration...
+
+10:16:43.910 [debug] sent notification server -> client window/logMessage
+
+10:16:43.911 [info] Database is on the latest version: 7
+
+10:16:43.911 [debug] sent notification server -> client window/logMessage
+
+10:16:43.911 [info] Finished DB migration...
+
+10:16:43.911 [debug] sent notification server -> client window/logMessage
+
+10:16:43.911 [info] Booting runtime for /home/konrad/Documents/Hochschule/Bachelorarbeit/goblin_trader.
+
+- elixir: /usr/bin/elixir
+- zombie wrapper script: /home/konrad/.local/share/.burrito/next_ls_erts-15.2_0.23.3/lib/next_ls-0.23.3/priv/cmd
+- working_dir: /home/konrad/Documents/Hochschule/Bachelorarbeit/goblin_trader
+- command: /usr/bin/elixir --no-halt --sname nextls-runtime-1757492203910953468 --cookie B5KWOZJIEP7TC5LDWAQBZUILE3M23QPWYKPSADNHECVNH73HK4LA==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3LW5leHQtbHMtMTc1NzQ5MjIwMjg4MjQ1Mjc3N0Brb25yYWQtMjB5NzAwM3FnZQAAANsAAAAAaMEz6w==
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/usr/bin:/home/konrad/.local/share/.burrito/next_ls_erts-15.2_0.23.3/bin:/home/konrad/.local/share/nvim/mason/bin:/home/konrad/.ghcup/bin:/home/konrad/.sdkman/candidates/java/current/bin:/home/konrad/.dotnet:/home/konrad/.deno/bin/deno/bin:/home/konrad/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/konrad/.local/bin:/home/konrad/.local/bin:/home/konrad/.cabal/bin:/home/konrad/.ghcup/bin
+
+
+10:16:43.911 [debug] handled notification client -> server initialized in 841ms
+
+10:16:43.918 [debug] handled notification client -> server textDocument/didOpen in 6ms
+
+10:16:44.926 [debug] sent notification server -> client window/logMessage
+
+10:16:44.926 [info] Connected to node nextls-runtime-1757492203910953468@konrad-20y7003qge
+
+10:16:45.665 [debug] sent notification server -> client $/progress
+
+10:16:45.667 [debug] sent notification server -> client window/logMessage
+
+10:16:45.667 [debug] Runtime for folder /home/konrad/Documents/Hochschule/Bachelorarbeit/goblin_trader is ready...
+
+10:16:45.670 id=138 [debug] sent request server -> client window/workDoneProgress/create
+
+10:16:45.670 [debug] sent notification server -> client $/progress
+
+10:16:45.736 [debug] sent notification server -> client $/progress
+
+10:16:45.736 [debug] sent notification server -> client window/logMessage
+
+10:16:45.736 [info] Compiled /home/konrad/Documents/Hochschule/Bachelorarbeit/goblin_trader!
+
+10:20:57.250 id=2 [debug] handled request client -> server shutdown in 5ms
+
+10:20:57.259 [debug] sent notification server -> client window/logMessage
+
+10:20:57.260 [info] The runtime for /home/konrad/Documents/Hochschule/Bachelorarbeit/goblin_trader has successfully shut down.
+
+10:20:57.261 [debug] sent notification server -> client window/logMessage
+
+10:20:57.261 [info] Beginning DB migration...

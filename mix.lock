@@ -1,0 +1,3 @@
+%{
+  "slime": {:hex, :slime, "0.16.0", "4f9c677ca37b2817cd10422ecb42c524fe904d3630acf242b81dfe189900272a", [:mix], [], "hexpm", "9a8c51853302df424aea6ce590e5f67ad8ba9581dd62ecb0c685bcf462c4cd79"},
+}

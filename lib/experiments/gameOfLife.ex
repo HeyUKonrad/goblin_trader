@@ -27,7 +27,7 @@ defmodule World do
 
   # ->> HELPERS <<-
 
-  defp schedule_tick, do: Process.send_after(self(), :tick, 1000)
+  defp schedule_tick, do: Process.send_after(self(), :tick, 500)
 
   def initialize_grid(width, height) do
     for x <- 0..(width - 1),
@@ -89,3 +89,6 @@ defmodule World do
     Enum.count(neighbors, fn pos -> grid[pos] == :filled end)
   end
 end
+
+
+# {:ok, _pid} = World.start_link({40, 20})
